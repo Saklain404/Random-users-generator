@@ -40,9 +40,11 @@ const MyCard = ({ details }) => {
           <br />
           
         </CardText>
-        <p className="font-weight-bold">DOB: {details.dob?.date}</p>
+        
+        <p className="font-weight-bold">DOB: - {details.dob?.date}</p>
 
-          <Button color="secondary">Age: {details.dob?.age}</Button>
+          <Button color="secondary">Age:- {details.dob?.age}</Button>
+          
       </CardBody>
     </Card>
   );

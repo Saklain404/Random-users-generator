@@ -7,3 +7,9 @@
 img {
 	margin-top: -80px;
 }
+
+.info{
+	display: flex;
+	justify-content: space-between;
+	margin: 1rem;
+}
